@@ -2159,7 +2159,7 @@ h2 {
 h3 {
     display:block;
     margin:10px auto 0;
-    color:#fff;
+    color:#000;
     font-size:18px;
     line-height:30px;
     font-weight:400;
@@ -2196,6 +2196,30 @@ p {
     margin-bottom:5px;
     margin-left:15px;
     line-height:22px
+}
+
+#imgthumb {
+    'width: 540px;
+    width:540px;
+    'margin-top:90px;
+    margin-left: auto;
+    margin-right: auto;
+
+     text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+#imgthumb a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
 }
 
 .button {
