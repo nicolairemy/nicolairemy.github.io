@@ -59,6 +59,24 @@ WebFont.load({
                         <span class="stretch"></span>
                     </div>
                 </p>
+
+            <form action="https://remycheckout.herokuapp.com/" method="POST">
+                <script
+                        src="https://checkout.stripe.com/checkout.js"
+                        class="stripe-button"
+                        data-key="pk_live_OMAz2viBSs4wOqoMPCydAMaK"
+                        data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                        data-name="Nicolai Remy"
+                        data-description="Camden Rose Gold BWR"
+                        data-amount="25"
+                        data-billingAddress="true"
+                        data-shippingAddress="true"
+                        ></script>
+                <input name="amount" value="5500" type="hidden">
+                <input name="description" value="Nicolai Remy watch sdfsdf" type="hidden">
+                <input name="metadata" value="YOUR_METADATA" type="hidden">
+            </form>
+
                 <br>
                 <p><a href="../history.html">Nicolai Remy</a> creates custom timepieces that are perfect to give out at any occasion: onboarding new employees, welcoming new investors, celebrating the success of a project - all deserve the pomp and circumstance of a stylish watch.</p>
                 <p>Corporate gifts usually consist of water bottles, hats, and t-shirts. We're engineers, we know. We love these gifts and wear them all the time when we're lounging around on weekends, but how about a gift that complements a tailored suit as well as summer shorts?</p>
